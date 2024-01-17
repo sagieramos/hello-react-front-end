@@ -1,116 +1,122 @@
-<div align="center">
-
-  <img src="imuwahen_logo.png" alt="logo" width="140"  height="auto" />
-  <br/>
-
-  <h3><b>Imuwahen</b></h3>
-
-</div>
-
+<!-- TABLE OF CONTENTS -->
 
 # 📗 Table of Contents
+
 - [📗 Table of Contents](#-table-of-contents)
-- [📖 \[hello-react-front-end\] ](#-hello-react-front-end-)
+- [📖- ✅ HELLO-REACT-FRONT-END](#---hello-react-front-end)
   - [🛠 Built With ](#-built-with-)
     - [Tech Stack ](#tech-stack-)
     - [Key Features ](#key-features-)
   - [💻 Getting Started ](#-getting-started-)
     - [Prerequisites](#prerequisites)
     - [Setup](#setup)
-    - [Install](#install)
     - [Usage](#usage)
-    - [Run tests](#run-tests)
+    - [Deployment](#deployment)
   - [👥 Authors ](#-authors-)
   - [🔭 Future Features ](#-future-features-)
   - [🤝 Contributing ](#-contributing-)
   - [⭐️ Show your support ](#️-show-your-support-)
   - [🙏 Acknowledgments ](#-acknowledgments-)
-  - [❓ FAQ ](#-faq-)
   - [📝 License ](#-license-)
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [hello-react-front-end] <a name="about-project"></a>
+# 📖- ✅ HELLO-REACT-FRONT-END
 
-**[hello-react-front-end]**
+**hello-react-front-end**
 
 ## 🛠 Built With <a name="built-with"></a>
+
+- ✅ React
 
 ### Tech Stack <a name="tech-stack"></a>
 
 <details>
-<summary>Language</summary>
+  <summary>Language</summary>
   <ul>
-    <li><a href="https://www.ruby-lang.org/">Ruby</a></li>
-    <li><a href="https://rubyonrails.org/">Rails</a></li>
+    <li>JavaScript</li>
   </ul>
 </details>
 
+<!-- Features -->
+
 ### Key Features <a name="key-features"></a>
 
-- Boilerplate for integrating react, redux with RoR
+- 🔰 **Static view**
+- 🔰 **Display API response**
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- GETTING STARTED -->
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
-To get a local copy up and running, follow these steps.
+**To get a local copy up and running, follow these steps.**
+
+1. Download or clone this [repostory](https://github.com/sagieramos/hello-react-front-end).
+2. Provide a modern web browser.
 
 ### Prerequisites
 
-In order to run this project you need:
+**In order to run this project you need:**
 
-``` sh
-    git clone https://github.com/sagieramos/hello-react-front-end
-```
+- ✔ Ruby installed in your machine. you can download it from [here](https://www.ruby-lang.org/en/downloads/)
+- ✔ IDE or a code editor installed in your machine.
+- ✔ A professional editer such as [VS Code](https://code.visualstudio.com/download).
+- ✔ An Updated web browser such as Google Chrome, you can download it from [here](https://www.google.com/chrome/).
 
 ### Setup
 
-Clone this repository to your desired folder:
+- Clone this [repository](https://github.com/sagieramos/hello-react-front-end) to your desired folder:
 
-[Link to the rails app](https://github.com/sagieramos/hello-rails-back-end)
+- Run this command in your command line interface:
 
-### Install
-
-Install this project with:
-
-``` sh
+```sh
+  cd YOUR_FOLDER
+  git clone https://github.com/sagieramos/hello-react-front-end
   cd hello-react-front-end
-```
-
-``` sh
   yarn install
 ```
+
+- Update the ```\.env``` with your API URL
+
 ### Usage
 
-- Set the URL of your rails app in ```/.env``` file
-- ``` sh
-  yarn start
+- To run the project, execute the following command:
+
+```sh
+    yarn start
 ```
 
-### Run tests
+### Deployment
 
-To run tests, run the following command:
-
-
+**This project is deployed by the author, no permission for deployment by any other client.**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+<!-- AUTHORS -->
 
 ## 👥 Authors <a name="authors"></a>
 
-👤 **Stanley Osagie Ramos**
+👤 **Stanley Osagie**
+
 - GitHub: [@sagieramos](https://github.com/sagieramos)
 - Twitter: [@sagieramos](https://twitter.com/sagieramos)
 - LinkedIn: [LinkedIn](https://linkedin.com/in/sagieramos)
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- FUTURE FEATURES -->
+
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **[Develop the error page]**
-- [ ] **[Improve the UI]**
+- **Add a new page**
+- **Give a style**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+<!-- CONTRIBUTING -->
 
 ## 🤝 Contributing <a name="contributing"></a>
 
@@ -120,23 +126,19 @@ Feel free to check the [issues page](https://github.com/sagieramos/hello-react-f
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+<!-- SUPPORT -->
 
 ## ⭐️ Show your support <a name="support"></a>
 
-If you like this project, please stay tune for more features
+If you like this project, kindly drop a start ⭐️ for the [repository](https://github.com/sagieramos/hello-react-front-end);
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- ACKNOWLEDGEMENTS -->
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-- Jehovah God
-- [Microverse Team](https://www.microverse.org/).
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- FAQ (optional) -->
-
-## ❓ FAQ <a name="faq"></a>
+I would like to express my heartfelt gratitude to **Microvere** for the invaluable learning experience they have provided.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
