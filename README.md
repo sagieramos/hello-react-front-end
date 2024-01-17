@@ -10,7 +10,7 @@
 
 # 📗 Table of Contents
 - [📗 Table of Contents](#-table-of-contents)
-- [📖 \[hello-rails-react\] ](#-hello-rails-react-)
+- [📖 \[hello-react-front-end\] ](#-hello-react-front-end-)
   - [🛠 Built With ](#-built-with-)
     - [Tech Stack ](#tech-stack-)
     - [Key Features ](#key-features-)
@@ -30,9 +30,9 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [hello-rails-react] <a name="about-project"></a>
+# 📖 [hello-react-front-end] <a name="about-project"></a>
 
-**[hello-rails-react]**
+**[hello-react-front-end]**
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -60,36 +60,37 @@ To get a local copy up and running, follow these steps.
 
 In order to run this project you need:
 
-
-```sh
- sudo apt install postgresql postgresql-contrib
+``` sh
+    git clone https://github.com/sagieramos/hello-react-front-end
 ```
 
 ### Setup
 
 Clone this repository to your desired folder:
 
-``` sh
-    git clone https://github.com/sagieramos/hello-rails-react
-```
 
 ### Install
 
 Install this project with:
 
+``` sh
+  cd hello-react-front-end
+```
 
+``` sh
+  yarn install
+```
 ### Usage
+
+- Set the URL of your rails app in ```/.env``` file
+- ``` sh
+  yarn start
+```
 
 ### Run tests
 
 To run tests, run the following command:
-``` sh
-  cd hello-rails-react
-```
 
-``` sh
-  rails s
-```
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -114,7 +115,7 @@ To run tests, run the following command:
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/sagieramos/hello-rails-react/issues).
+Feel free to check the [issues page](https://github.com/sagieramos/hello-react-front-end/issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
