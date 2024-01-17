@@ -1,5 +1,5 @@
 import './App.css';
-import React from 'react';
+import React, { useEffect } from 'react';
 import { useAppSelector, useAppDispatch } from './redux/hooks';
 import { fetchGreeting } from './redux/slices/greetingSlice';
 
@@ -8,6 +8,10 @@ const App = () => {
   const greeting = useAppSelector((state) => state.greeting.value);
   const loading = useAppSelector((state) => state.greeting.loading);
   const error = useAppSelector((state) => state.greeting.error);
+
+  useEffect(() => {
+    dispatch(fetchGreeting());
+  }, []);
 
   return (
     <div className="App">

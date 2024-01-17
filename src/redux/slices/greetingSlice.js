@@ -13,7 +13,6 @@ export const fetchGreeting = createAsyncThunk(
   'greeting/fetchGreeting',
   async (_, thunkAPI) => {
     try {
-      console.log(apiUrl);
       const response = await fetch(apiUrl);
       if (!response.ok) {
         throw new Error(`HTTP error! Status: ${response.status}`);
