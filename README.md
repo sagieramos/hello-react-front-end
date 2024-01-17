@@ -68,6 +68,7 @@ In order to run this project you need:
 
 Clone this repository to your desired folder:
 
+[Link to the rails app](https://github.com/sagieramos/hello-rails-back-end)
 
 ### Install
 
